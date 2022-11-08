@@ -1,0 +1,24 @@
+name: 3DDFA_V2
+channels:
+  - conda-forge
+  - pytorch
+  - bottler
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch=1.7.0
+  - torchvision
+  - cudatoolkit=10.2
+  - nvidiacub
+  - jupyter
+  - pip:
+      - scikit-image
+      - matplotlib
+      - imageio
+      - plotly
+      - opencv-python
+      - black
+      - 'isort<5'
+      - flake8
+      - flake8-bugbear
+      - flake8-comprehensions
